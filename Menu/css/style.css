@@ -1,0 +1,52 @@
+/**
+ *	Project Name	:	Horizontal Navigation
+ *	Date			:	16/Feb/2015
+ *	Developer		:	Thona Euk
+ *	Developer URI	:	http://glean.net
+ */
+ 
+body {
+	margin: 0;
+	background: grey;
+}
+h1{
+	color: red;
+	text-align: center;
+}
+
+nav {
+	background: #ff0000;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+li {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: 000fff;
+	padding: 10px 40px 10px 40px;
+	display: block;
+}
+a:hover {
+	background: #fff000;
+	color: grey;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
