@@ -9,6 +9,10 @@ body {
 	margin: 0;
 	background: grey;
 }
+h1{
+	color: red;
+	text-align: center;
+}
 
 nav {
 	background: #ff0000;
