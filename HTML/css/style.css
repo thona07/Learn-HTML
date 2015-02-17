@@ -7,6 +7,11 @@
  
 body {
 	margin: 0;
+	background: ;
+}
+h1{
+	color: grey;
+	text-align: center;
 }
 
 nav {
@@ -21,15 +26,18 @@ ul {
 li {
 	display: inline-block;
 }
+tr,td{
+	color: red;
+}
 a {
 	text-decoration: none;
-	
+	color: 000fff;
 	padding: 10px 40px 10px 40px;
 	display: block;
 }
 a:hover {
 	background: #fff000;
-	color: #000fff;
+	color: grey;
 }
 
 .clearfix:after {
