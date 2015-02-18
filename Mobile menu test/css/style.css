@@ -19,6 +19,17 @@ nav {
 	position: relative;
 	border-bottom: 1px solid #ddd;
 }
+.logo {
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/logo-m.png) no-repeat;
+	background-size: 105px 45px;
+	width: 105px;
+	height: 45px;
+	position: absolute;
+	top: 3px;
+	left: 15px;
+}
 .toggle-button {
 	position: absolute;
 	padding-top: 8px;
@@ -26,6 +37,7 @@ nav {
 	height: 26px;
 	right: 10px;
 	top: 10px;
+	border: 1px solid #eee;
 	cursor: pointer;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -59,7 +71,7 @@ ul {
 ul a {
 	display: block;
 	padding: 10px 15px;
-	color: red;
+	color: #444;
 	text-decoration: none;
 }
 ul a:hover {
