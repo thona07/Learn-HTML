@@ -59,7 +59,7 @@ ul {
 ul a {
 	display: block;
 	padding: 10px 15px;
-	color: #333;
+	color: red;
 	text-decoration: none;
 }
 ul a:hover {
