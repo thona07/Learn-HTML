@@ -47,11 +47,14 @@ nav {
 	margin-bottom: 0;
 }
 ul {
-	display: none;
 	position: absolute;
 	width: 100%;
 	top: 51px;
 	background: #ccc;
+	display: none;
+}
+.show {
+	display: block;
 }
 ul a {
 	display: block;
