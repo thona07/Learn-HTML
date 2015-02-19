@@ -19,6 +19,17 @@ nav {
 	position: relative;
 	border-bottom: 1px solid #ddd;
 }
+.logo {
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/logo-m.png) no-repeat;
+	background-size: 105px 45px;
+	width: 105px;
+	height: 45px;
+	position: absolute;
+	top: 3px;
+	left: 15px;
+}
 .toggle-button {
 	position: absolute;
 	padding-top: 8px;
@@ -26,6 +37,7 @@ nav {
 	height: 26px;
 	right: 10px;
 	top: 10px;
+	border: 1px solid #eee;
 	cursor: pointer;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -59,35 +71,12 @@ ul {
 ul a {
 	display: block;
 	padding: 10px 15px;
-	color: #333;
+	color: #444;
 	text-decoration: none;
-}
-ul li a{
-	padding: 10px 40px;
-	display: block;
-	text-decoration: none;
-	color: #333;
-	position: relative;
-	-webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
- }
-ul li span {
-	display: inline-block;
-	position: absolute;
-	border-top: 5px solid #333;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	top: 18px;
-	right: 15px;
 }
 ul a:hover {
 	background: #eee;
-	color: red;
 }
- ul li:hover ul{
-	visibility: visible;
- }
 
 @media ( min-width: 992px ) {
 	nav {
@@ -98,8 +87,45 @@ ul a:hover {
 		top: 0;
 		text-align: center;
 	}
-	li {
+	ul li {
 		display: inline-block;
+	}
+	ul li a{
+	padding: 10px 40px;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	position: relative;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+ }
+ ul li a span {
+	display: inline-block;
+	position: absolute;
+	border-top: 5px solid #333;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	top: 18px;
+	right: 15px;
+}
+ ul li:hover ul{
+	visibility: visible;
+ }
+ul ul{
+	position: absolute;
+	background:#ccc;
+	text-align: left;
+	visibility: hidden;
+	z-index: 999;
+	top: 41px;
+	width: auto;
+ }
+  ul ul li{
+	display: block;
+ }
+	li {
+		display: block;
 	}
 	li a {
 		padding: 20px 40px;
