@@ -11,7 +11,11 @@
 		},
 		toggleMenu: function() {
 			$('.toggle-button').click( function() {
-				$('ul').toggleClass('show');
+				$('ul.menu').toggleClass('show');
+			});
+			
+			$('ul.menu li > a').click( function() {
+				$(this).next('ul').toggleClass('show');
 			});
 		}
 	}

@@ -12,6 +12,7 @@
 body {
 	font-family: Arial, Verdana;
 	font-size: 18px;
+	background: #DDD;
 }
 nav {
 	background: #ccc;
@@ -64,6 +65,27 @@ ul {
 	top: 51px;
 	background: #ccc;
 	display: none;
+	list-style: none;
+}
+ ul li a span {
+	display: inline-block;
+	position: absolute;
+	border-top: 5px solid #333;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	top: 18px;
+	right: 15px;
+}
+ul ul{
+	position: static;
+	background:#ccc;
+	text-align: left;
+	display: none;
+	top: 41px;
+	width: auto;
+}
+ul ul a {
+	padding-left: 30px;
 }
 .show {
 	display: block;
