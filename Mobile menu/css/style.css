@@ -104,9 +104,14 @@ ul a:hover {
 		min-height: 0;
 	}
 	ul {
+		position: absolute;
+		width: 100%;
+		background: #ccc;
 		display: block;
 		top: 0;
 		text-align: center;
+		list-style: none;
+		height: 50px;
 	}
 	ul li {
 		display: inline-block;
@@ -134,15 +139,17 @@ ul a:hover {
 	visibility: visible;
  }
  .logo {
-	display: inline-block;
+	display: block;
 	text-indent: -9999px;
 	background: url(../images/cocacola.png) no-repeat;
 	background-size: 105px 45px;
-	width: 105px;
-	height: 45px;
+	width: 100px;
+	height: 40px;
 	position: absolute;
+	height: 50px;
 	top: 3px;
 	left: 15px;
+	z-index: 80
 }
 ul ul{
 	position: absolute;
