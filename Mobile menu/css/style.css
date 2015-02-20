@@ -31,6 +31,14 @@ nav {
 	top: 3px;
 	left: 15px;
 }
+.images {
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/images.jpg) no-repeat;
+	width: 100%;
+	background-size: auto;
+	height: auto;
+	}
 .toggle-button {
 	position: absolute;
 	padding-top: 8px;

@@ -1,0 +1,89 @@
+/**
+* Project Name	: Multi Level Navigation
+* Date			: 20/02/2015
+* Developer		: THona Euk
+* Developer	URL	: http://glean.com
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Arial, Verdana;
+	font-size: 18px;
+	background: #ccc;
+}
+nav {
+	background: #ddd;
+	min-height: 50px;
+	position: relative;
+	border-bottom: 1px solid #ddd;
+}
+.toggle-button {
+	position: absolute;
+	padding-top: 8px;
+	width: 40px;
+	height: 26px;
+	right: 10px;
+	top: 10px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.toggle-button:hover,
+.toggle-button:active,
+.toggle-button:focus {
+	background: #aaa;
+}
+.toggle-button span {
+	width: 20px;
+	height: 2px;
+	margin: 0 10px 5px 10px;
+	display: block;
+	background-color: #eee;
+}
+.toggle-button span:last-child {
+	margin-bottom: 0;
+}
+ul {
+	position: absolute;
+	width: 100%;
+	top: 51px;
+	background: #ccc;
+	display: none;
+	list-style: none;
+}
+ ul li a span {
+	display: inline-block;
+	position: absolute;
+	border-top: 5px solid #333;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	right: 15px;
+}
+ul ul{
+	position: static;
+	background:#ccc;
+	text-align: left;
+	display: none;
+	top: 41px;
+	width: auto;
+}
+ul ul a {
+	padding-left: 30px;
+}
+.show {
+	display: block;
+}
+ul a {
+	display: block;
+	padding: 10px 15px;
+	color: #444;
+	text-decoration: none;
+}
+ul a:hover {
+	background: #eee;
+}
