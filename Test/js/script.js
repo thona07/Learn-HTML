@@ -4,7 +4,7 @@
  *	Date			:		20-February-2015
  */
  
-  $ ( function() {
+ $ ( function() {
 	var MobileMenu = {
 		init: function() {
 			this.toggleMenu();

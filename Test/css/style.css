@@ -16,9 +16,20 @@ body {
 }
 nav {
 	background: #ddd;
-	min-height: 50px;
+	min-height: 52px;
 	position: relative;
 	border-bottom: 1px solid #ddd;
+}
+.logo {
+	display: block;
+	text-indent: -9999px;
+	background: url(../images/logo-m.png) no-repeat;
+	background-size: 105px 45px;
+	width: 105px;
+	height: 45px;
+	position: absolute;
+	top: 4px;
+	left: 15px;
 }
 .toggle-button {
 	position: absolute;
