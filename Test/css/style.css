@@ -106,8 +106,9 @@ ul a:hover {
 		top: 7px;
 	}
 	nav {
+		background: #FAEDB7;
 		position: static;
-		min-height: 52px;
+		min-height: 44px;
 	}
 	.toggle-button {
 		display: none;
