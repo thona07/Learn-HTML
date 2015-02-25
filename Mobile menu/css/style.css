@@ -15,8 +15,8 @@ body {
 	background: #DDD;
 }
 nav {
-	background: #ccc;
-	min-height: 50px;
+	background: #FFE4C4;
+	min-height: 60px;
 	position: relative;
 	border-bottom: 1px solid #ddd;
 }
@@ -28,7 +28,7 @@ nav {
 	width: 105px;
 	height: 45px;
 	position: absolute;
-	top: 3px;
+	top: 8px;
 	left: 15px;
 }
 .images {
@@ -48,6 +48,7 @@ nav {
 	top: 10px;
 	border: 1px solid #eee;
 	cursor: pointer;
+	background: blue;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -70,7 +71,7 @@ nav {
 ul {
 	position: absolute;
 	width: 100%;
-	top: 51px;
+	top: 58px;
 	background: #ccc;
 	display: none;
 	list-style: none;
@@ -101,7 +102,7 @@ ul ul a {
 ul a {
 	display: block;
 	padding: 10px 15px;
-	color: #444;
+	color: #2F4F4F;
 	text-decoration: none;
 }
 ul a:hover {
@@ -120,13 +121,13 @@ ul a:hover {
 		top: 0;
 		text-align: center;
 		list-style: none;
-		height: 50px;
+		height: 64px;
 	}
 	ul li {
 		display: inline-block;
 	}
 	ul li a{
-	padding: 10px 40px;
+	padding: 22px 40px;
 	display: block;
 	text-decoration: none;
 	color: #333;
@@ -141,7 +142,7 @@ ul a:hover {
 	border-top: 5px solid #333;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
-	top: 18px;
+	top: 31px;
 	right: 15px;
 }
  ul li:hover ul{
@@ -156,7 +157,7 @@ ul a:hover {
 	height: 40px;
 	position: absolute;
 	height: 50px;
-	top: 3px;
+	top: 9px;
 	left: 15px;
 	z-index: 80
 }
@@ -166,7 +167,7 @@ ul ul{
 	text-align: left;
 	visibility: hidden;
 	z-index: 999;
-	top: 41px;
+	top: 65px;
 	width: auto;
  }
   ul ul li{
