@@ -30,6 +30,7 @@ nav {
 	right: 10px;
 	top: 10px;
 	border: 1px solid #eee;
+	background: red;
 	cursor: pointer;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -92,13 +93,15 @@ ul a:hover {
 	background: #eee;
 }
 @media ( min-width: 992px ) {
+	.logo {
+		top: 7px;
+	}
 	nav {
-		background: #FFEBCD;
+		background: #FAEDB7;
 		position: static;
 		min-height: 44px;
-		
 	}
-	.toggle-button{
+	.toggle-button {
 		display: none;
 	}
 	ul {
@@ -106,7 +109,7 @@ ul a:hover {
 		display: block;
 		top: 53px;
 		width: 100%;
-		background: #aaa;
+		background: #87CEFA;
 		text-align: center;
 		list-style: none;
 	}
@@ -114,12 +117,18 @@ ul a:hover {
 		display: inline-block;
 	}
 	ul ul li {
-	display: block;
+		display: block;
 	}
 	ul li:hover ul{
 	visibility: visible;
  }
-  }
+  ul ul{
+	position: absolute;
+	background:#ccc;
+	text-align: left;
+	visibility: hidden;
+	z-index: 999;
+ }
 	ul li a{
 	padding: 10px 40px;
 	display: block;
@@ -131,7 +140,7 @@ ul a:hover {
 	transition: all 0.2s ease-in;
 	cursor: auto;
  }
-  ul li a span {
+ ul li a span {
 	display: inline-block;
 	top: 20px;
  }
