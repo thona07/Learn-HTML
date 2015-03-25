@@ -15,7 +15,7 @@ body {
 	background: #B0C4DE;
 }
 nav {
-	background: #87CEEB;
+	background: #FF1493;
 	min-height: 52px;
 	position: relative;
 	border-bottom: 1px solid #ddd;
@@ -24,11 +24,11 @@ nav {
 	display: block;
 	text-indent: -9999px;
 	background: url(../images/logo-m.png) no-repeat;
-	background-size: 105px 45px;
-	width: 105px;
-	height: 45px;
+	background-size: 82px 32px;
+	width: 82px;
+	height: 32px;
 	position: absolute;
-	top: 4px;
+	top: 9px;
 	left: 15px;
 }
 .toggle-button {
@@ -37,7 +37,7 @@ nav {
 	width: 40px;
 	height: 26px;
 	right: 10px;
-	top: 10px;
+	top: 8px;
 	border: 1px solid #eee;
 	cursor: pointer;
 	-webkit-border-radius: 4px;
@@ -63,7 +63,7 @@ ul {
 	position: absolute;
 	width: 100%;
 	top: 51px;
-	background: #87CEFA;
+	background: #FF00FF;
 	display: none;
 	list-style: none;
 }
@@ -78,7 +78,7 @@ ul {
 }
 ul ul{
 	position: static;
-	background:#aaa;
+	background:#FF00FF;
 	text-align: left;
 	display: none;
 	top: 41px;
@@ -94,18 +94,18 @@ ul a {
 	position: relative;
 	display: block;
 	padding: 10px 15px;
-	color: #444;
+	color: #FFFAF0;
 	text-decoration: none;
 }
 ul a:hover {
-	background: #eee;
+	background: #2F4F4F;
 }
 @media ( min-width: 992px ) {
 	.logo {
 		top: 7px;
 	}
 	nav {
-		background: #FAEDB7;
+		background: #b3020c;
 		position: static;
 		min-height: 44px;
 	}
@@ -118,10 +118,10 @@ ul a:hover {
 		top: 53px;
 		width: 100%;
 		background: #87CEFA;
-		text-align: center;
+		#text-align: center;
 		list-style: none;
 	}
-	ul li {
+	#ul li {
 		display: inline-block;
 	}
 	ul ul li {
